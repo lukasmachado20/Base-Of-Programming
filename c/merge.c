@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void intercalation(int v[], int c1, int f1, int c2, int f2){
+void intercalation(int v[], int c2, int f1, int c2, int f2){
 	int len = (f1 - c1 + 1) + (f2 - c2 + 1);
 	int a[len];
 	int i1 = c1;
